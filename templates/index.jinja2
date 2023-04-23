@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> {{title}} </title>
+  </head>
+  <body>
+    <h2>Welcome to Benford's Law Validation Checker!</h2>
+    <p>This is a simple web application that allows you to test whether a given set of numbers satisfies Benford's Law of not with 2% margin for error.</p>
+    <p>To get started, click the "Choose File" button below and select a CSV file containing a single column of numbers with at least 10,000 rows.</p>
+    <form method="post" action="/checker" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
