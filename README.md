@@ -1,0 +1,1 @@
+This web app checks whether the entered csv file cointaining one column conforms benford distribution or not. We compare the frequency of 1st single digit from every record of the csv file and checks for benford distribution. 
